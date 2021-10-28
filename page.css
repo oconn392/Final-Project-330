@@ -1,0 +1,65 @@
+* { box-sizing: border-box; }
+
+body { background-color: #436A3F;
+       color: #666666; 
+	   font-family: Times New Roman, Georgia, serif;
+}
+header { background-color: #003308; 
+         color: #FFFFFF; 
+         height: 120px;
+		 text-align: center;
+		 padding-top: 30px;
+		 padding-left: 3em;
+         background-image: url(asuba_logo.png);
+         background-repeat: no-repeat;
+         background-size: 125px;
+}
+header a { text-decoration: none; }
+header a:link {color: #FFFFFF}
+header a:visited {color: #FFFFFF}
+header a:hover {color: #90E399;}
+h1 { margin-bottom: 0; 
+    margin-top: 0;
+    font-family: Times New Roman, Georgia, serif; 
+	font-size: 3em;}
+nav {font-weight: bold;
+     padding-top: 10px;
+     padding-bottom: 10px;	
+     font-size: 120%;
+     background-image: linear-gradient(to bottom, #FFFFFF, #5DB068);
+ text-align: center;}
+nav ul { list-style-type: none;
+	font-size: 1.2em;
+	display: inline;}
+nav li { display: inline; }
+nav a { text-decoration: none; }
+nav a:link {color: #3D722F}
+nav a:visited {color: #367334}
+nav a:hover {color: #862AA5;}
+
+.float {float: left; margin-right: 10px; border: 3px ridge #000000;} 
+.clearleft {clear: left; }
+
+
+main { padding: 1px 20px 20px 20px;
+      display: block;
+      background-color: #FFFFFF; 
+      padding-bottom: 190px;}
+section { float: left; 
+width: 33%; padding-left: 2em; padding-right: 2em;}
+h2 { color: #19D22E; 
+     font-family: Times New Roman, Georgia, serif;
+     text-shadow: 2px 2px 2px #CCC;	
+ 	text-align: center;
+ 	font-size: 180%;}
+h3 { color : #000033; 
+    font-family: Times New Roman, Georgia, serif; }	
+dt { color: #002171; }
+#contact { font-size: 90%; }
+footer {background-color: #FFFFFF;
+	   font-size: 75%;
+       font-style: italic;
+	   text-align: center;
+	   font-family: Times New Roman, Georgia, serif; 
+	   padding: 2em; }
+.text-align-center { text-align: center; }
