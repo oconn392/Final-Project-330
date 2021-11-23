@@ -10,9 +10,10 @@ header { background-color: #003308;
 		 text-align: center;
 		 padding-top: 30px;
 		 padding-left: 3em;
-         background-image: url(asuba_logo.png);
+         background-image: url("../Image Assets/asuba_logo.png"), url("../Image Assets/morrisville_logo.gif");
          background-repeat: no-repeat;
-         background-size: 125px;
+         background-position: left, right;
+         background-size: 125px, 300px;
 }
 header a { text-decoration: none; }
 header a:link {color: #FFFFFF}
